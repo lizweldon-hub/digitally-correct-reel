@@ -1,0 +1,9 @@
+{
+  "name": "digitally-correct-reel-web",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Digitally Correct 2.0 VIP Cinema Screening Room for reel.digitallycorrect.co.za (en-ZA)",
+  "scripts": {
+    "stage-media": "node scripts/stage_media.mjs"
+  }
+}
