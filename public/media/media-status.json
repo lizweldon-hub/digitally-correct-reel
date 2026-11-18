@@ -1,10 +1,11 @@
 {
-  "stagedAt": "2026-11-17T04:54:53.430Z",
+  "stagedAt": "2026-11-18T15:24:05.722Z",
+  "version": "2.0-v2-warm-pomelli",
   "locale": "en-ZA",
   "master16x9Ready": true,
-  "master16x9DurationSec": 50,
-  "master16x9SizeMb": 24.44,
-  "master9x16Ready": false,
-  "master9x16DurationSec": 6,
-  "master9x16SizeMb": 3.12
+  "master16x9DurationSec": 56,
+  "master16x9SizeMb": 31.69,
+  "master9x16Ready": true,
+  "master9x16DurationSec": 56,
+  "master9x16SizeMb": 32.86
 }

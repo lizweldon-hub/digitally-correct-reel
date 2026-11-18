@@ -3,31 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digitally Correct | The Mint Spark Odyssey (60fps Showreel)</title>
+  <title>Digitally Correct | Capabilities Showreel (60fps)</title>
   <meta
     name="description"
-    content="Breathe Life Into Your Brand. Explore The Mint Spark Odyssey: 60fps showreel from Digitally Correct, Cape Town and global creative-tech studio."
+    content="Breathe Life Into Your Brand. Watch the 60fps capabilities showreel from Digitally Correct: Brand DNA, Explainer Videos, AI Cinema, Cloud Social Hubs, 3D Executive Presentations, and ZAR Growth Ecosystems."
   />
 
   <!-- Open Graph / Executive Share Metadata -->
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_ZA" />
   <meta property="og:url" content="https://reel.digitallycorrect.co.za/" />
-  <meta property="og:title" content="Digitally Correct | The Mint Spark Odyssey (60fps Showreel)" />
+  <meta property="og:title" content="Digitally Correct | Breathe Life Into Your Brand." />
   <meta
     property="og:description"
-    content="Brand DNA, Explainer Video Marketing, Interactive ZAR ROI Tools, 60fps AI Cinema, Cloud Social Hubs, and Executive Keynote Data Decks."
+    content="Explore our 60fps capabilities showreel: Brand DNA, Explainer Videos, Video & Post-Production, AI Cinema, Cloud Social Hubs, 3D Executive Presentations, and Digital Campaigns."
   />
-  <meta property="og:image" content="https://reel.digitallycorrect.co.za/media/og-preview.jpg" />
+  <meta property="og:image" content="https://reel.digitallycorrect.co.za/media/og-preview.jpg?v=2" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Digitally Correct | The Mint Spark Odyssey" />
+  <meta name="twitter:title" content="Digitally Correct | Capabilities Showreel" />
   <meta
     name="twitter:description"
-    content="Breathe Life Into Your Brand. Watch the 60fps creative-tech showreel from Digitally Correct."
+    content="Breathe Life Into Your Brand. Watch the 60fps capabilities showreel from Digitally Correct."
   />
-  <meta name="twitter:image" content="https://reel.digitallycorrect.co.za/media/og-preview.jpg" />
+  <meta name="twitter:image" content="https://reel.digitallycorrect.co.za/media/og-preview.jpg?v=2" />
 
   <link rel="icon" type="image/png" href="/media/dc-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,14 +39,15 @@
 
   <style>
     :root {
-      --abyssal-slate: #13242E;
-      --dark-slate: #2F4E60;
-      --fresh-mint: #6BD7D9;
       --pure-white: #FFFFFF;
-      --deep-teal-mint: #2A9D9F;
       --ice-mist: #EFF7F8;
-      --glass-border: rgba(239, 247, 248, 0.16);
-      --glass-surface: linear-gradient(135deg, rgba(19, 36, 46, 0.78) 0%, rgba(47, 78, 96, 0.46) 100%);
+      --warm-canvas: #F7FAFB;
+      --dark-slate: #2F4E60;
+      --deep-teal-mint: #2A9D9F;
+      --fresh-mint: #6BD7D9;
+      --slate-muted: rgba(47, 78, 96, 0.74);
+      --bento-border: rgba(47, 78, 96, 0.10);
+      --bento-shadow: 0 20px 50px rgba(47, 78, 96, 0.08), 0 2px 10px rgba(47, 78, 96, 0.04);
       --font-headline: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
       --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     }
@@ -58,8 +59,8 @@
     }
 
     html, body {
-      background-color: var(--abyssal-slate);
-      color: var(--pure-white);
+      background-color: var(--warm-canvas);
+      color: var(--dark-slate);
       font-family: var(--font-ui);
       min-height: 100vh;
       overflow-x: hidden;
@@ -68,24 +69,32 @@
 
     body {
       background-image:
-        radial-gradient(circle at 50% 24%, rgba(107, 215, 217, 0.13) 0%, rgba(42, 157, 159, 0.04) 36%, transparent 68%),
-        radial-gradient(circle at 85% 82%, rgba(47, 78, 96, 0.36) 0%, transparent 55%);
+        radial-gradient(circle at 18% 8%, rgba(107, 215, 217, 0.18) 0%, transparent 46%),
+        radial-gradient(circle at 86% 16%, rgba(239, 247, 248, 0.95) 0%, transparent 52%),
+        linear-gradient(180deg, #FFFFFF 0%, #EFF7F8 52%, #F7FAFB 100%);
     }
 
     .shell {
       max-width: 1320px;
       margin: 0 auto;
-      padding: 28px 24px 64px;
+      padding: 26px 24px 72px;
     }
 
-    /* Top VIP Navigation */
+    /* Sunlit Pomelli Navigation Bento Bar */
     .topbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 16px;
       flex-wrap: wrap;
-      margin-bottom: 34px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--bento-border);
+      box-shadow: 0 10px 30px rgba(47, 78, 96, 0.06);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      margin-bottom: 36px;
     }
 
     .brand-lockup {
@@ -93,87 +102,76 @@
       align-items: center;
       gap: 12px;
       text-decoration: none;
-      color: var(--pure-white);
+      color: var(--dark-slate);
     }
 
-    .brand-badge {
-      width: 38px;
-      height: 38px;
-      border-radius: 10px;
-      background: rgba(239, 247, 248, 0.92);
-      padding: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 6px 20px rgba(10, 20, 27, 0.35);
-    }
-
-    .brand-badge img {
-      width: 100%;
-      height: 100%;
+    .brand-lockup img {
+      width: 34px;
+      height: 34px;
       object-fit: contain;
     }
 
     .brand-wordmark {
       font-family: var(--font-headline);
       font-weight: 800;
-      font-size: 16px;
-      letter-spacing: 0.14em;
+      font-size: 15.5px;
+      letter-spacing: 0.13em;
+      color: var(--dark-slate);
     }
 
     .studio-pill {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      padding: 9px 18px;
+      gap: 9px;
+      padding: 8px 16px;
       border-radius: 999px;
-      background: var(--glass-surface);
-      border: 1px solid var(--glass-border);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      font-size: 12px;
+      background: var(--ice-mist);
+      border: 1px solid rgba(42, 157, 159, 0.16);
+      font-size: 11.5px;
       font-weight: 600;
-      letter-spacing: 0.12em;
-      color: var(--ice-mist);
+      letter-spacing: 0.11em;
+      color: var(--deep-teal-mint);
     }
 
-    .pulse-dot {
+    .spark-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
       background-color: var(--fresh-mint);
-      box-shadow: 0 0 12px var(--fresh-mint);
-      animation: mintPulse 2.2s ease-in-out infinite;
+      box-shadow: 0 0 0 3px rgba(107, 215, 217, 0.28);
+      flex-shrink: 0;
     }
 
-    @keyframes mintPulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.32); opacity: 0.72; }
-    }
-
-    .cta-btn {
+    .primary-btn {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       padding: 11px 24px;
       border-radius: 999px;
-      background-color: var(--fresh-mint);
-      color: var(--abyssal-slate);
+      background-color: var(--dark-slate);
+      color: var(--pure-white);
       font-family: var(--font-headline);
-      font-weight: 800;
+      font-weight: 700;
       font-size: 13.5px;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.02em;
       text-decoration: none;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      box-shadow: 0 8px 26px rgba(107, 215, 217, 0.32);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      box-shadow: 0 10px 24px rgba(47, 78, 96, 0.18);
     }
 
-    .cta-btn:hover {
+    .primary-btn:hover {
       transform: translateY(-1px);
-      box-shadow: 0 12px 32px rgba(107, 215, 217, 0.48);
+      box-shadow: 0 14px 30px rgba(47, 78, 96, 0.25);
     }
 
-    /* Hero Copy */
+    .primary-btn .btn-mint-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: var(--fresh-mint);
+    }
+
+    /* Editorial Header */
     .hero-head {
       display: flex;
       align-items: flex-end;
@@ -181,91 +179,92 @@
       gap: 24px;
       flex-wrap: wrap;
       margin-bottom: 22px;
+      padding: 0 4px;
     }
 
     .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       font-family: var(--font-ui);
       font-weight: 600;
       font-size: 12px;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.13em;
       text-transform: uppercase;
-      color: var(--fresh-mint);
+      color: var(--deep-teal-mint);
       margin-bottom: 8px;
     }
 
     h1 {
       font-family: var(--font-headline);
       font-weight: 800;
-      font-size: clamp(28px, 4vw, 46px);
-      line-height: 1.08;
+      font-size: clamp(30px, 4.1vw, 48px);
+      line-height: 1.07;
       letter-spacing: -0.025em;
+      color: var(--dark-slate);
     }
 
-    h1 .mint-dot {
-      color: var(--fresh-mint);
+    h1 .mint-period {
+      color: var(--deep-teal-mint);
     }
 
-    /* Aspect Mode Switcher */
+    /* Aspect Ratio Switcher */
     .aspect-toggle {
       display: inline-flex;
-      padding: 4px;
+      padding: 5px;
       border-radius: 999px;
-      background: rgba(19, 36, 46, 0.85);
-      border: 1px solid var(--glass-border);
-      backdrop-filter: blur(16px);
+      background: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      box-shadow: 0 6px 20px rgba(47, 78, 96, 0.06);
     }
 
     .aspect-btn {
       appearance: none;
       border: 0;
       background: transparent;
-      color: rgba(239, 247, 248, 0.72);
+      color: var(--slate-muted);
       font-family: var(--font-ui);
       font-weight: 600;
       font-size: 12.5px;
-      letter-spacing: 0.06em;
-      padding: 8px 16px;
+      letter-spacing: 0.04em;
+      padding: 9px 18px;
       border-radius: 999px;
       cursor: pointer;
       transition: all 0.2s ease;
     }
 
     .aspect-btn.active {
-      background: var(--fresh-mint);
-      color: var(--abyssal-slate);
-      font-weight: 700;
+      background: var(--dark-slate);
+      color: var(--pure-white);
+      box-shadow: 0 4px 14px rgba(47, 78, 96, 0.2);
     }
 
-    /* Cinema Stage */
-    .cinema-frame {
+    /* Sunlit Bento Cinema Stage */
+    .cinema-bento {
       position: relative;
-      border-radius: 22px;
-      padding: 10px;
-      background: var(--glass-surface);
-      border: 1px solid var(--glass-border);
-      backdrop-filter: blur(18px) saturate(140%);
-      -webkit-backdrop-filter: blur(18px) saturate(140%);
-      box-shadow:
-        0 28px 72px rgba(6, 13, 18, 0.68),
-        0 0 60px rgba(107, 215, 217, 0.09);
+      border-radius: 26px;
+      padding: 12px;
+      background: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      box-shadow: var(--bento-shadow);
       transition: max-width 0.35s ease;
       margin: 0 auto;
     }
 
-    .cinema-frame.portrait-mode {
-      max-width: 440px;
+    .cinema-bento.portrait-mode {
+      max-width: 450px;
     }
 
     .video-viewport {
       position: relative;
       width: 100%;
       aspect-ratio: 16 / 9;
-      border-radius: 14px;
+      border-radius: 18px;
       overflow: hidden;
-      background-color: #0b161d;
+      background-color: var(--ice-mist);
     }
 
-    .cinema-frame.portrait-mode .video-viewport {
+    .cinema-bento.portrait-mode .video-viewport {
       aspect-ratio: 9 / 16;
     }
 
@@ -276,7 +275,7 @@
       display: block;
     }
 
-    /* Centre VIP Play Overlay */
+    /* Sunlit Frosted Play Veil */
     .play-veil {
       position: absolute;
       inset: 0;
@@ -285,9 +284,9 @@
       align-items: center;
       justify-content: center;
       gap: 14px;
-      background: radial-gradient(circle, rgba(19, 36, 46, 0.38) 0%, rgba(19, 36, 46, 0.62) 100%);
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.14) 0%, rgba(47, 78, 96, 0.18) 100%);
       cursor: pointer;
-      transition: opacity 0.28s ease;
+      transition: opacity 0.25s ease;
     }
 
     .play-veil.hidden {
@@ -296,64 +295,74 @@
     }
 
     .play-orb {
-      width: 78px;
-      height: 78px;
+      width: 82px;
+      height: 82px;
       border-radius: 50%;
-      background: rgba(107, 215, 217, 0.94);
-      color: var(--abyssal-slate);
+      background: rgba(255, 255, 255, 0.95);
+      color: var(--dark-slate);
+      border: 2px solid rgba(107, 215, 217, 0.75);
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 0 38px rgba(107, 215, 217, 0.58);
-      transition: transform 0.2s ease;
+      box-shadow: 0 18px 42px rgba(47, 78, 96, 0.24);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .play-veil:hover .play-orb {
       transform: scale(1.06);
+      box-shadow: 0 22px 48px rgba(47, 78, 96, 0.32);
     }
 
     .play-caption {
-      padding: 7px 16px;
+      padding: 8px 18px;
       border-radius: 999px;
-      background: rgba(19, 36, 46, 0.82);
-      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: 0.1em;
-      color: var(--ice-mist);
+      letter-spacing: 0.09em;
+      color: var(--dark-slate);
+      box-shadow: 0 8px 24px rgba(47, 78, 96, 0.12);
     }
 
-    /* Transport Controls */
+    /* Warm Editorial Player Controls */
     .controls-bar {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 12px;
       padding: 14px 10px 6px;
       flex-wrap: wrap;
     }
 
     .ctrl-btn {
       appearance: none;
-      border: 1px solid var(--glass-border);
-      background: rgba(19, 36, 46, 0.72);
-      color: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      background: var(--ice-mist);
+      color: var(--dark-slate);
       border-radius: 999px;
-      padding: 8px 15px;
+      padding: 8px 16px;
       font-family: var(--font-ui);
       font-weight: 600;
       font-size: 12.5px;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.03em;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 7px;
-      transition: border-color 0.2s ease, color 0.2s ease;
+      transition: all 0.2s ease;
     }
 
-    .ctrl-btn:hover,
-    .ctrl-btn.mint-active {
-      border-color: var(--fresh-mint);
-      color: var(--fresh-mint);
+    .ctrl-btn:hover {
+      border-color: var(--deep-teal-mint);
+      background: var(--pure-white);
+    }
+
+    .ctrl-btn.sound-active {
+      background: rgba(107, 215, 217, 0.22);
+      border-color: rgba(42, 157, 159, 0.35);
+      color: var(--dark-slate);
     }
 
     .scrub-wrap {
@@ -367,9 +376,10 @@
     .scrub-track {
       position: relative;
       flex: 1;
-      height: 7px;
+      height: 8px;
       border-radius: 999px;
-      background: rgba(47, 78, 96, 0.75);
+      background: var(--ice-mist);
+      border: 1px solid rgba(47, 78, 96, 0.08);
       cursor: pointer;
       overflow: hidden;
     }
@@ -384,68 +394,110 @@
     .timecode {
       font-family: var(--font-headline);
       font-weight: 700;
-      font-size: 12px;
-      letter-spacing: 0.06em;
-      color: var(--ice-mist);
+      font-size: 12.5px;
+      letter-spacing: 0.04em;
+      color: var(--dark-slate);
       font-variant-numeric: tabular-nums;
-      min-width: 96px;
+      min-width: 98px;
       text-align: right;
     }
 
-    /* 7-Scene Chapter Strip */
+    /* 8-Chapter Interactive Bento Grid */
+    .section-kicker {
+      margin-top: 28px;
+      margin-bottom: 12px;
+      padding: 0 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      color: var(--deep-teal-mint);
+    }
+
     .chapters {
       display: grid;
-      grid-template-columns: repeat(7, minmax(0, 1fr));
-      gap: 10px;
-      margin-top: 18px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
     }
 
     .chapter-pill {
       appearance: none;
       text-align: left;
-      padding: 12px 13px;
-      border-radius: 14px;
-      background: var(--glass-surface);
-      border: 1px solid var(--glass-border);
-      color: var(--ice-mist);
+      padding: 15px 16px;
+      border-radius: 18px;
+      background: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      color: var(--dark-slate);
       cursor: pointer;
-      transition: all 0.2s ease;
+      box-shadow: 0 6px 18px rgba(47, 78, 96, 0.04);
+      transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
     }
 
-    .chapter-pill:hover,
+    .chapter-pill:hover {
+      transform: translateY(-2px);
+      border-color: rgba(42, 157, 159, 0.45);
+      box-shadow: 0 12px 26px rgba(47, 78, 96, 0.08);
+    }
+
     .chapter-pill.active {
-      border-color: var(--fresh-mint);
-      background: linear-gradient(135deg, rgba(107, 215, 217, 0.16) 0%, rgba(19, 36, 46, 0.86) 100%);
-      box-shadow: 0 8px 24px rgba(107, 215, 217, 0.12);
+      background: var(--ice-mist);
+      border-color: var(--deep-teal-mint);
+      box-shadow: 0 10px 26px rgba(42, 157, 159, 0.14);
+    }
+
+    .chapter-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
     }
 
     .chapter-num {
-      display: block;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
       font-family: var(--font-headline);
       font-weight: 700;
-      font-size: 11px;
+      font-size: 11.5px;
       letter-spacing: 0.1em;
-      color: var(--fresh-mint);
-      margin-bottom: 4px;
+      color: var(--deep-teal-mint);
       font-variant-numeric: tabular-nums;
+    }
+
+    .chapter-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: rgba(47, 78, 96, 0.2);
+      transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .chapter-pill.active .chapter-dot {
+      background-color: var(--fresh-mint);
+      box-shadow: 0 0 0 3px rgba(107, 215, 217, 0.35);
     }
 
     .chapter-name {
       display: block;
-      font-size: 12.5px;
-      font-weight: 600;
-      color: var(--pure-white);
-      line-height: 1.25;
+      font-family: var(--font-headline);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--dark-slate);
+      line-height: 1.28;
+      letter-spacing: -0.01em;
     }
 
-    /* Executive Pillars & Contact Footer */
-    .footer-card {
-      margin-top: 38px;
-      padding: 26px 30px;
-      border-radius: 20px;
-      background: var(--glass-surface);
-      border: 1px solid var(--glass-border);
-      backdrop-filter: blur(16px);
+    /* Warm Pomelli Bento Footer */
+    .footer-bento {
+      margin-top: 36px;
+      padding: 30px 34px;
+      border-radius: 24px;
+      background: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      box-shadow: var(--bento-shadow);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -453,40 +505,54 @@
       flex-wrap: wrap;
     }
 
+    .footer-copy .footer-tag {
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--deep-teal-mint);
+      margin-bottom: 6px;
+    }
+
     .footer-copy h2 {
       font-family: var(--font-headline);
       font-weight: 800;
-      font-size: 22px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+      color: var(--dark-slate);
       margin-bottom: 6px;
     }
 
     .footer-copy p {
       font-size: 14.5px;
-      color: rgba(239, 247, 248, 0.8);
+      color: var(--slate-muted);
+      max-width: 580px;
+      line-height: 1.5;
     }
 
     .contact-links {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 12px;
       flex-wrap: wrap;
     }
 
     .contact-pill {
       padding: 11px 20px;
       border-radius: 999px;
-      border: 1px solid var(--glass-border);
-      background: rgba(19, 36, 46, 0.7);
-      color: var(--pure-white);
+      border: 1px solid var(--bento-border);
+      background: var(--ice-mist);
+      color: var(--dark-slate);
       text-decoration: none;
       font-weight: 600;
       font-size: 13.5px;
       font-variant-numeric: tabular-nums;
-      transition: border-color 0.2s ease;
+      transition: all 0.2s ease;
     }
 
     .contact-pill:hover {
-      border-color: var(--fresh-mint);
+      border-color: var(--deep-teal-mint);
+      background: var(--pure-white);
     }
 
     @media (max-width: 980px) {
@@ -497,41 +563,52 @@
         display: none;
       }
     }
+
+    @media (max-width: 560px) {
+      .chapters {
+        grid-template-columns: 1fr;
+      }
+      .topbar {
+        border-radius: 22px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="shell">
     <header class="topbar">
       <a class="brand-lockup" href="https://digitallycorrect.co.za/" target="_blank" rel="noopener">
-        <span class="brand-badge">
-          <img src="/media/dc-logo.png" alt="Digitally Correct logo" />
-        </span>
+        <img src="/media/dc-logo.png" alt="Digitally Correct emblem" />
         <span class="brand-wordmark">DIGITALLY CORRECT</span>
       </a>
 
       <div class="studio-pill">
-        <span class="pulse-dot"></span>
-        <span>CAPE TOWN&nbsp;&nbsp;|&nbsp;&nbsp;GLOBAL CREATIVE-TECH STUDIO</span>
+        <span class="spark-dot"></span>
+        <span>CAPE TOWN&nbsp;&nbsp;•&nbsp;&nbsp;CREATIVE-TECH &amp; VIDEO STUDIO</span>
       </div>
 
-      <a class="cta-btn" href="https://digitallycorrect.co.za/" target="_blank" rel="noopener">
-        Let's Elevate Your Brand
+      <a class="primary-btn" href="https://digitallycorrect.co.za/" target="_blank" rel="noopener">
+        <span class="btn-mint-dot"></span>
+        <span>Let's Elevate Your Brand</span>
       </a>
     </header>
 
     <section class="hero-head">
       <div>
-        <div class="eyebrow">2026 Agency Showreel&nbsp;&nbsp;|&nbsp;&nbsp;60fps Programmatic Master</div>
-        <h1>Breathe Life Into Your Brand<span class="mint-dot">.</span></h1>
+        <div class="eyebrow">
+          <span class="spark-dot"></span>
+          <span>Capabilities Showreel&nbsp;&nbsp;•&nbsp;&nbsp;56s at 60fps</span>
+        </div>
+        <h1>Breathe Life Into Your Brand<span class="mint-period">.</span></h1>
       </div>
 
-      <div class="aspect-toggle" role="tablist" aria-label="Showreel aspect ratio">
-        <button id="btn16x9" class="aspect-btn active" type="button">16:9 Cinema Master</button>
+      <div class="aspect-toggle" role="tablist" aria-label="Showreel aspect format">
+        <button id="btn16x9" class="aspect-btn active" type="button">16:9 Studio Master</button>
         <button id="btn9x16" class="aspect-btn" type="button">9:16 Vertical Reel</button>
       </div>
     </section>
 
-    <main id="cinemaFrame" class="cinema-frame">
+    <main id="cinemaFrame" class="cinema-bento">
       <div class="video-viewport">
         <video
           id="reelVideo"
@@ -539,69 +616,110 @@
           poster="/media/showreel-poster.jpg"
           playsinline
           loop
-          preload="metadata"
+          preload="auto"
         ></video>
 
         <div id="playVeil" class="play-veil">
           <div class="play-orb" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8 5.14v14l11-7-11-7z" />
             </svg>
           </div>
-          <div class="play-caption">SCREENING ROOM&nbsp;&nbsp;|&nbsp;&nbsp;-14 LUFS STEREO</div>
+          <div class="play-caption">PLAY 60FPS SHOWREEL&nbsp;&nbsp;•&nbsp;&nbsp;STEREO SOUND</div>
         </div>
       </div>
 
       <div class="controls-bar">
         <button id="playPauseBtn" class="ctrl-btn" type="button">Play</button>
-        <button id="muteBtn" class="ctrl-btn mint-active" type="button">Sound On</button>
+        <button id="muteBtn" class="ctrl-btn sound-active" type="button">Sound On</button>
 
         <div class="scrub-wrap">
           <div id="scrubTrack" class="scrub-track">
             <div id="scrubFill" class="scrub-fill"></div>
           </div>
-          <div id="timecodeDisplay" class="timecode">00:00 / 00:50</div>
+          <div id="timecodeDisplay" class="timecode">00:00 / 00:56</div>
         </div>
 
         <button id="fullscreenBtn" class="ctrl-btn" type="button">Fullscreen</button>
       </div>
     </main>
 
-    <nav id="chapterNav" class="chapters" aria-label="Showreel scene chapters">
+    <div class="section-kicker">
+      <span>Interactive Chapters (Click Any Capability to Jump)</span>
+      <span>08 Scenes • 56.0s</span>
+    </div>
+
+    <nav id="chapterNav" class="chapters" aria-label="Showreel capability chapters">
       <button class="chapter-pill active" type="button" data-start="0" data-end="6">
-        <span class="chapter-num">01 / 0:00</span>
-        <span class="chapter-name">Brand DNA &amp; Visual Systems</span>
+        <span class="chapter-top">
+          <span class="chapter-num">01 / 0:00</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">Brand DNA &amp; Identity</span>
       </button>
+
       <button class="chapter-pill" type="button" data-start="6" data-end="13">
-        <span class="chapter-num">02 / 0:06</span>
-        <span class="chapter-name">Explainer Video Marketing</span>
+        <span class="chapter-top">
+          <span class="chapter-num">02 / 0:06</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">Explainer Videos</span>
       </button>
-      <button class="chapter-pill" type="button" data-start="13" data-end="21">
-        <span class="chapter-num">03 / 0:13</span>
-        <span class="chapter-name">Interactive ZAR ROI Tools</span>
+
+      <button class="chapter-pill" type="button" data-start="13" data-end="20">
+        <span class="chapter-top">
+          <span class="chapter-num">03 / 0:13</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">Video &amp; Post-Production</span>
       </button>
-      <button class="chapter-pill" type="button" data-start="21" data-end="28">
-        <span class="chapter-num">04 / 0:21</span>
-        <span class="chapter-name">AI Cinema &amp; 60fps Reels</span>
+
+      <button class="chapter-pill" type="button" data-start="20" data-end="27">
+        <span class="chapter-top">
+          <span class="chapter-num">04 / 0:20</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">AI Cinema &amp; Social Reels</span>
       </button>
-      <button class="chapter-pill" type="button" data-start="28" data-end="35">
-        <span class="chapter-num">05 / 0:28</span>
+
+      <button class="chapter-pill" type="button" data-start="27" data-end="34">
+        <span class="chapter-top">
+          <span class="chapter-num">05 / 0:27</span>
+          <span class="chapter-dot"></span>
+        </span>
         <span class="chapter-name">Cloud Social Hubs</span>
       </button>
-      <button class="chapter-pill" type="button" data-start="35" data-end="42">
-        <span class="chapter-num">06 / 0:35</span>
-        <span class="chapter-name">Executive Data Decks</span>
+
+      <button class="chapter-pill" type="button" data-start="34" data-end="42">
+        <span class="chapter-top">
+          <span class="chapter-num">06 / 0:34</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">3D Executive Presentations</span>
       </button>
-      <button class="chapter-pill" type="button" data-start="42" data-end="50">
-        <span class="chapter-num">07 / 0:42</span>
-        <span class="chapter-name">Mint Spark Finale</span>
+
+      <button class="chapter-pill" type="button" data-start="42" data-end="49">
+        <span class="chapter-top">
+          <span class="chapter-num">07 / 0:42</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">Digital &amp; Web Campaigns</span>
+      </button>
+
+      <button class="chapter-pill" type="button" data-start="49" data-end="56.5">
+        <span class="chapter-top">
+          <span class="chapter-num">08 / 0:49</span>
+          <span class="chapter-dot"></span>
+        </span>
+        <span class="chapter-name">Digitally Correct Finale</span>
       </button>
     </nav>
 
-    <footer class="footer-card">
+    <footer class="footer-bento">
       <div class="footer-copy">
-        <h2>Presentation Shapes Perception<span style="color: var(--fresh-mint);">.</span></h2>
-        <p>Creative-Tech, Explainer Video &amp; AI Digital Ecosystem Studio. Built by our team for measurable ZAR pipeline growth.</p>
+        <div class="footer-tag">Partner With Our Team</div>
+        <h2>Presentation Shapes Perception<span style="color: var(--deep-teal-mint);">.</span></h2>
+        <p>Organised brand systems, playful high-retention explainer videos, and digital ecosystems engineered for measurable ZAR growth.</p>
       </div>
 
       <div class="contact-links">
@@ -611,8 +729,9 @@
         <a class="contact-pill" href="https://wa.me/27608548628" target="_blank" rel="noopener">
           +27 60 854 8628
         </a>
-        <a class="cta-btn" href="https://digitallycorrect.co.za/" target="_blank" rel="noopener">
-          Book a Strategy Session
+        <a class="primary-btn" href="https://digitallycorrect.co.za/" target="_blank" rel="noopener">
+          <span class="btn-mint-dot"></span>
+          <span>Book a Discovery Call</span>
         </a>
       </div>
     </footer>
@@ -635,6 +754,8 @@
         document.querySelectorAll('.chapter-pill')
       );
 
+      var pendingSeekSeconds = null;
+
       function formatTime(sec) {
         if (!isFinite(sec) || sec < 0) return '00:00';
         var m = Math.floor(sec / 60);
@@ -647,9 +768,9 @@
         playVeil.classList.toggle('hidden', !paused);
         playPauseBtn.textContent = paused ? 'Play' : 'Pause';
         muteBtn.textContent = video.muted ? 'Unmute' : 'Sound On';
-        muteBtn.classList.toggle('mint-active', !video.muted);
+        muteBtn.classList.toggle('sound-active', !video.muted);
 
-        var dur = isFinite(video.duration) && video.duration > 0 ? video.duration : 50;
+        var dur = isFinite(video.duration) && video.duration > 0 ? video.duration : 56;
         var cur = video.currentTime || 0;
         var pct = Math.min(100, Math.max(0, (cur / dur) * 100));
         scrubFill.style.width = pct.toFixed(2) + '%';
@@ -662,14 +783,48 @@
         });
       }
 
+      function safePlay() {
+        var p = video.play();
+        if (p && typeof p.catch === 'function') {
+          p.catch(function () {
+            video.muted = true;
+            video.play().catch(function () {});
+          });
+        }
+      }
+
       function togglePlay() {
         if (video.paused) {
-          video.play().catch(function () {
-            video.muted = true;
-            video.play();
-          });
+          safePlay();
         } else {
           video.pause();
+        }
+      }
+
+      function seekToSecondsAndPlay(startSeconds) {
+        pendingSeekSeconds = startSeconds;
+
+        var executeSeek = function () {
+          if (pendingSeekSeconds === null) return;
+          var target = pendingSeekSeconds;
+          pendingSeekSeconds = null;
+          if (isFinite(video.duration) && video.duration > 0) {
+            target = Math.min(target, Math.max(0, video.duration - 0.1));
+          }
+          video.currentTime = target;
+          safePlay();
+          syncUi();
+        };
+
+        if (video.readyState >= 1) {
+          executeSeek();
+        } else {
+          var onMeta = function () {
+            video.removeEventListener('loadedmetadata', onMeta);
+            executeSeek();
+          };
+          video.addEventListener('loadedmetadata', onMeta);
+          video.load();
         }
       }
 
@@ -693,36 +848,37 @@
       scrubTrack.addEventListener('click', function (e) {
         var rect = scrubTrack.getBoundingClientRect();
         var ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-        if (isFinite(video.duration) && video.duration > 0) {
-          video.currentTime = ratio * video.duration;
-        }
+        var dur = isFinite(video.duration) && video.duration > 0 ? video.duration : 56;
+        seekToSecondsAndPlay(ratio * dur);
       });
 
       chapterButtons.forEach(function (btn) {
         btn.addEventListener('click', function () {
-          var st = Number(btn.getAttribute('data-start'));
-          if (isFinite(video.duration) && st < video.duration) {
-            video.currentTime = st;
-          } else {
-            video.currentTime = 0;
-          }
-          if (video.paused) {
-            togglePlay();
-          }
+          var startSeconds = Number(btn.getAttribute('data-start')) || 0;
+          seekToSecondsAndPlay(startSeconds);
         });
       });
 
       function switchMode(isPortrait) {
+        var savedTime = video.currentTime || 0;
         var wasPlaying = !video.paused;
         cinemaFrame.classList.toggle('portrait-mode', isPortrait);
         btn16x9.classList.toggle('active', !isPortrait);
         btn9x16.classList.toggle('active', isPortrait);
         video.src = isPortrait ? '/media/showreel-9x16.mp4' : '/media/showreel-16x9.mp4';
+
+        var onSwitchMeta = function () {
+          video.removeEventListener('loadedmetadata', onSwitchMeta);
+          if (savedTime > 0 && isFinite(video.duration) && savedTime < video.duration) {
+            video.currentTime = savedTime;
+          }
+          if (wasPlaying) {
+            safePlay();
+          }
+          syncUi();
+        };
+        video.addEventListener('loadedmetadata', onSwitchMeta);
         video.load();
-        if (wasPlaying) {
-          video.play().catch(function () {});
-        }
-        syncUi();
       }
 
       btn16x9.addEventListener('click', function () { switchMode(false); });
@@ -732,6 +888,7 @@
       video.addEventListener('pause', syncUi);
       video.addEventListener('timeupdate', syncUi);
       video.addEventListener('loadedmetadata', syncUi);
+      video.addEventListener('seeked', syncUi);
     })();
   </script>
 </body>
